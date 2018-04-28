@@ -7,6 +7,18 @@ const createStore = () => {
       indexedUser: 0,
       users: [
         {
+          name: 'Xianglong Logistics',
+          img: '/profile0.jpg',
+          location: 'Seattle',
+          bio:
+            '以北京市大型物资运输公司为基础，对原北京市交通局所属的货运枢纽经营企业、货运代理企业、道路货物运输等企业按照现代企业制度重组改制注册的国有一人公司。',
+          following: 590,
+          followers: 1705,
+          photos: 45,
+          days: 12,
+          trips: ['Honolulu', 'Tokyo', 'Osaka']
+        },
+        {
           name: 'Sophia Gonzalez',
           img: '/profile2.jpg',
           location: 'San Francisco',
